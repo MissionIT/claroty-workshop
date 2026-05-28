@@ -35,7 +35,7 @@ RUN find /app/.venv -name '__pycache__' -type d -exec rm -rf {} + && \
 
 # Final stage
 # python:3.13-alpine (multi-arch: amd64, arm64)
-FROM python@sha256:bb1f2fdb1065c85468775c9d680dcd344f6442a2d1181ef7916b60a623f11d40
+FROM python@sha256:250e5c97be05e1eb2272fbdbd810dfd638f9012e1e6f65c99390ad3239943a08
 
 LABEL io.modelcontextprotocol.server.name="io.github.CrowdStrike/falcon-mcp"
 
