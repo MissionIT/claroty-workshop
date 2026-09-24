@@ -1,6 +1,6 @@
 # Use a Python image with uv pre-installed
 # ghcr.io/astral-sh/uv:python3.13-alpine (multi-arch: amd64, arm64)
-FROM ghcr.io/astral-sh/uv@sha256:6bef08ad40f8062d86a6be6b853e85563d6db8885eb2ba853308b4bb07b1270b AS uv
+FROM ghcr.io/astral-sh/uv@sha256:3adc3706091ce7c2fe595e669628caedd6d951551b92b258b7e7dbe06d9440bc AS uv
 
 # Install the project into `/app`
 WORKDIR /app
